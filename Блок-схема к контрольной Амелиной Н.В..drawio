@@ -1,0 +1,186 @@
+<mxfile host="app.diagrams.net" modified="2023-10-22T18:19:22.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.888 YaBrowser/23.9.2.888 Yowser/2.5 Safari/537.36" etag="bT2akg8fdClr59ohM1UZ" version="22.0.6" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="832" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="279" y="120" as="sourcePoint" />
+            <mxPoint x="279" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="270" y="210" as="sourcePoint" />
+            <mxPoint x="320" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZwXEyom_PN7nwCJYhOse-0" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="197.5" y="60" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwXEyom_PN7nwCJYhOse-1" value="Создаем метод для разделения строки из консоли в массив по знаку &quot;,&quot;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="125" y="190" width="365" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwXEyom_PN7nwCJYhOse-2" value="Создаем метод сортирующий символы из массива.Сначала отсчитываем количество удовлетворяющих требованиям,для определения длинны нового массива.Создаем массив по полученному от пользователя количеству&amp;nbsp; и заносим туда символыудовлетворяющие требованиям." style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="125" y="340" width="365" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwXEyom_PN7nwCJYhOse-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZwXEyom_PN7nwCJYhOse-1" target="ZwXEyom_PN7nwCJYhOse-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="240" as="sourcePoint" />
+            <mxPoint x="440" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZwXEyom_PN7nwCJYhOse-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZwXEyom_PN7nwCJYhOse-0" target="ZwXEyom_PN7nwCJYhOse-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="340" as="sourcePoint" />
+            <mxPoint x="440" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZwXEyom_PN7nwCJYhOse-7" value="Создаем метод для вывода информации пользователя в консоли:&quot;Введите количество элементов в массиве&amp;nbsp; &quot;; &quot;Введите элемент массива&quot;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="120" y="525" width="320" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwXEyom_PN7nwCJYhOse-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.482;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZwXEyom_PN7nwCJYhOse-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="530" as="sourcePoint" />
+            <mxPoint x="300" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZwXEyom_PN7nwCJYhOse-11" value="Создаем метод для вывода информации из массивов с использованием циклического вывода каждого элемента массива" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="120" y="525" width="370" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwXEyom_PN7nwCJYhOse-14" value="Выводим поясняющую информационную строку для пользователя в консоли" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="120" y="690" width="370" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwXEyom_PN7nwCJYhOse-16" value="Присваеваем введенные в консоли от пользователя символы" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="120" y="840" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwXEyom_PN7nwCJYhOse-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZwXEyom_PN7nwCJYhOse-17" target="ZwXEyom_PN7nwCJYhOse-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwXEyom_PN7nwCJYhOse-17" value="Присваеваем&amp;nbsp; массиву преобразованную строку через метод" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="135" y="970" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwXEyom_PN7nwCJYhOse-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZwXEyom_PN7nwCJYhOse-18" target="ZwXEyom_PN7nwCJYhOse-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwXEyom_PN7nwCJYhOse-18" value="Выводим на печать результат" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="145" y="1130" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwXEyom_PN7nwCJYhOse-19" value="end" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="245" y="1260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwXEyom_PN7nwCJYhOse-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZwXEyom_PN7nwCJYhOse-11" target="ZwXEyom_PN7nwCJYhOse-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="740" as="sourcePoint" />
+            <mxPoint x="570" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZwXEyom_PN7nwCJYhOse-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.855;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZwXEyom_PN7nwCJYhOse-14" target="ZwXEyom_PN7nwCJYhOse-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="740" as="sourcePoint" />
+            <mxPoint x="570" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZwXEyom_PN7nwCJYhOse-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZwXEyom_PN7nwCJYhOse-16" target="ZwXEyom_PN7nwCJYhOse-17" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1040" as="sourcePoint" />
+            <mxPoint x="570" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZwXEyom_PN7nwCJYhOse-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZwXEyom_PN7nwCJYhOse-18" target="ZwXEyom_PN7nwCJYhOse-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KHWHn_3NhHk83vFbsKvu-0" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="279" y="120" as="sourcePoint" />
+            <mxPoint x="279" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KHWHn_3NhHk83vFbsKvu-1" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="270" y="210" as="sourcePoint" />
+            <mxPoint x="320" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KHWHn_3NhHk83vFbsKvu-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="197.5" y="60" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KHWHn_3NhHk83vFbsKvu-3" value="Создаем метод для разделения строки из консоли в массив по знаку &quot;,&quot;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="125" y="190" width="365" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KHWHn_3NhHk83vFbsKvu-4" value="Создаем метод сортирующий символы из массива.Сначала отсчитываем количество удовлетворяющих требованиям,для определения длинны нового массива.Создаем массив по полученному от пользователя количеству&amp;nbsp; и заносим туда символыудовлетворяющие требованиям." style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="125" y="340" width="365" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KHWHn_3NhHk83vFbsKvu-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KHWHn_3NhHk83vFbsKvu-3" target="KHWHn_3NhHk83vFbsKvu-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="240" as="sourcePoint" />
+            <mxPoint x="440" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KHWHn_3NhHk83vFbsKvu-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KHWHn_3NhHk83vFbsKvu-2" target="KHWHn_3NhHk83vFbsKvu-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="340" as="sourcePoint" />
+            <mxPoint x="440" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KHWHn_3NhHk83vFbsKvu-7" value="Создаем метод для вывода информации пользователя в консоли:&quot;Введите количество элементов в массиве&amp;nbsp; &quot;; &quot;Введите элемент массива&quot;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="525" width="320" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="KHWHn_3NhHk83vFbsKvu-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.482;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KHWHn_3NhHk83vFbsKvu-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="530" as="sourcePoint" />
+            <mxPoint x="300" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KHWHn_3NhHk83vFbsKvu-9" value="Создаем метод для вывода информации из массивов с использованием циклического вывода каждого элемента массива" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="525" width="370" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="KHWHn_3NhHk83vFbsKvu-10" value="Выводим поясняющую информационную строку для пользователя в консоли" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="690" width="370" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KHWHn_3NhHk83vFbsKvu-11" value="Присваеваем введенные в консоли от пользователя символы" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="840" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KHWHn_3NhHk83vFbsKvu-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KHWHn_3NhHk83vFbsKvu-13" target="KHWHn_3NhHk83vFbsKvu-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KHWHn_3NhHk83vFbsKvu-13" value="Присваеваем&amp;nbsp; массиву преобразованную строку через метод" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="135" y="970" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KHWHn_3NhHk83vFbsKvu-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KHWHn_3NhHk83vFbsKvu-15" target="KHWHn_3NhHk83vFbsKvu-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KHWHn_3NhHk83vFbsKvu-15" value="Выводим на печать результат" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="145" y="1130" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KHWHn_3NhHk83vFbsKvu-16" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="245" y="1260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KHWHn_3NhHk83vFbsKvu-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KHWHn_3NhHk83vFbsKvu-9" target="KHWHn_3NhHk83vFbsKvu-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="740" as="sourcePoint" />
+            <mxPoint x="570" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KHWHn_3NhHk83vFbsKvu-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.855;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KHWHn_3NhHk83vFbsKvu-10" target="KHWHn_3NhHk83vFbsKvu-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="740" as="sourcePoint" />
+            <mxPoint x="570" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KHWHn_3NhHk83vFbsKvu-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KHWHn_3NhHk83vFbsKvu-11" target="KHWHn_3NhHk83vFbsKvu-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1040" as="sourcePoint" />
+            <mxPoint x="570" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KHWHn_3NhHk83vFbsKvu-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KHWHn_3NhHk83vFbsKvu-15" target="KHWHn_3NhHk83vFbsKvu-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
